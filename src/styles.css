@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+}
+
+.container {
+  margin: 170px auto;
+  width: 400px;
+  height: 250px;
+  border-radius: 25px;
+  border: 10px white solid;
+  background-color: plum;
+  box-shadow: 10px 5px rgb(58, 57, 57);
+}
+
+.colors {
+  top: -20px;
+  margin: auto;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+}
+
+.colors > #color {
+  margin: 20px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 75px;
+  border: 10px white solid;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+}
